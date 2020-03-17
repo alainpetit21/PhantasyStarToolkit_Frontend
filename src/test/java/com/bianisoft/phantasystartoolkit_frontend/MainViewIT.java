@@ -1,4 +1,4 @@
-package com.bianisoft.phantasystartoolkit;
+package com.bianisoft.phantasystartoolkit_frontend;
 
 import com.vaadin.flow.component.textfield.testbench.TextFieldElement;
 import org.junit.Assert;

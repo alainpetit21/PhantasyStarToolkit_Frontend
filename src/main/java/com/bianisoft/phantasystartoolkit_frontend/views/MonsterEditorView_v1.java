@@ -1,8 +1,7 @@
-package com.bianisoft.phantasystartoolkit.views;
+package com.bianisoft.phantasystartoolkit_frontend.views;
 
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.button.ButtonVariant;
-import com.vaadin.flow.component.charts.model.HorizontalAlign;
 import com.vaadin.flow.component.formlayout.FormLayout;
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.Image;
@@ -14,13 +13,10 @@ import com.vaadin.flow.component.splitlayout.SplitLayout;
 import com.vaadin.flow.component.textfield.NumberField;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.Route;
-import com.vaadin.flow.server.StreamResource;
 
-import java.io.ByteArrayInputStream;
-
-@Route(value = "monsters", layout = MainView.class)
-public class MonsterEditorView extends Div {
-    public MonsterEditorView() {
+@Route(value = "monsters_v1", layout = MainView.class)
+public class MonsterEditorView_v1 extends Div {
+    public MonsterEditorView_v1() {
 
         //Creation
         //Main Split View

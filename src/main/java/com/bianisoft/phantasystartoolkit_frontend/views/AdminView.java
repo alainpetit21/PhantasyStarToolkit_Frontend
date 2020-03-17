@@ -1,4 +1,4 @@
-package com.bianisoft.phantasystartoolkit.views;
+package com.bianisoft.phantasystartoolkit_frontend.views;
 
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.html.Span;

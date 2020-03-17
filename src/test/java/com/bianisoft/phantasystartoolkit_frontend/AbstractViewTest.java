@@ -1,4 +1,4 @@
-package com.bianisoft.phantasystartoolkit;
+package com.bianisoft.phantasystartoolkit_frontend;
 
 import org.junit.Assert;
 import org.junit.Before;

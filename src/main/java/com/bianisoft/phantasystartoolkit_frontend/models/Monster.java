@@ -1,4 +1,4 @@
-package com.bianisoft.phantasystartoolkit.models;
+package com.bianisoft.phantasystartoolkit_frontend.models;
 
 // -----------------------------------------------------------------
 
@@ -42,16 +42,16 @@ public class Monster {
         strName = new String(Arrays.copyOfRange(pData, 0, 8));
         unknown_8to15 = Arrays.copyOfRange(pData, 8, 16);
         nBankOffset = pData[16];
-        nGraphicOffset = ((int)(pData[17]&0xFF)) | ((int)(pData[18]&0xFF) << 8);
+        nGraphicOffset = ((pData[17]&0xFF)) | ((pData[18]&0xFF) << 8);
         unknown_19= pData[19];
         nPartyNumber = pData[20];
         nHP = pData[21];
         nATK = pData[22];
         nDEF = pData[23];
         ItemDrop = pData[24];
-        nMesetas = ((int)(pData[25]&0xFF)) | ((int)(pData[26]&0xFF) << 8);
+        nMesetas = ((pData[25]&0xFF)) | ((pData[26]&0xFF) << 8);
         nChanceTrap = pData[27];
-        nEXP = ((int)(pData[28]&0xFF)) | ((int)(pData[29]&0xFF) << 8);
+        nEXP = ((pData[28]&0xFF)) | ((pData[29]&0xFF) << 8);
         unknown_30 = pData[30];
         nRun = pData[31];
     }
